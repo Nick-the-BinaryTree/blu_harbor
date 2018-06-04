@@ -13,6 +13,7 @@
 header {
   margin-top: 3em;
   min-width: 100vw;
+  max-width: 100%;
   box-shadow: inset 0px 0px 3em .5em #00BFFF;
   background: rgba(66, 134, 244, .5);
   margin-bottom: 2em;
