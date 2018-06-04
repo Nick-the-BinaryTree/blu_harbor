@@ -1,6 +1,6 @@
 {
   "name": "blu_harbor",
-  "homepage": "https://nick-the-binarytree.github.io/blu_harbor/",
+  "homepage": "https://nick-the-binarytree.github.io/blu_harbor",
   "main": "lib/index.js",
   "version": "0.1.0",
   "private": true,
