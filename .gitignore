@@ -6,8 +6,11 @@
 # testing
 /coverage
 
-# production
-/build
+# production (must be kept)
+# /build
+
+# Flow
+/lib
 
 # misc
 .DS_Store
