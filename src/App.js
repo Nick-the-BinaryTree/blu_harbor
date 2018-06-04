@@ -6,23 +6,23 @@ import './css/App.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router baseurl={process.env.PUBLIC_URL}>
         <div className="App">
           <header>
-            <h1><Link to={process.env.PUBLIC_URL + "/"}>Welcome to Blu Harbor</Link></h1>
+            <h1><Link to={"/">Welcome to Blu Harbor</Link></h1>
             <ul>
-              <li><Link to={process.env.PUBLIC_URL + "/arrival"}>Arrival</Link></li>
-              <li><Link to={process.env.PUBLIC_URL + "/food"}>Food</Link></li>
-              <li><Link to={process.env.PUBLIC_URL + "/social"}>Social</Link></li>
-              <li><Link to={process.env.PUBLIC_URL + "/amenities"}>Amenities</Link></li>
+              <li><Link to="/arrival">Arrival</Link></li>
+              <li><Link to="/food">Food</Link></li>
+              <li><Link to="/social">Social</Link></li>
+              <li><Link to="/amenities">Amenities</Link></li>
 
             </ul>
           </header>
-          <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
-          <Route path={process.env.PUBLIC_URL + "/arrival"} component={Arrival} />
-          <Route path={process.env.PUBLIC_URL + "/food"} component={Food} />
-          <Route path={process.env.PUBLIC_URL + "/social"} component={Social} />
-          <Route path={process.env.PUBLIC_URL + "/amenities"} component={Amenities} />
+          <Route exact path="/" component={Home} />
+          <Route path="/arrival" component={Arrival} />
+          <Route path="/food" component={Food} />
+          <Route path="/social" component={Social} />
+          <Route path="/amenities" component={Amenities} />
         </div>
       </Router>
     );
