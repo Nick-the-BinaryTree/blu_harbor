@@ -9,7 +9,7 @@
 # production (must be kept)
 # /build
 
-# Flow
+# flow
 /lib
 
 # misc
@@ -22,3 +22,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
