@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Food = () => (
-  <div class="content">
+  <div className="content">
     <h2>Food</h2>
-    <p class="body">
+    <p className="body">
       Your housing company will start you off with two single-meal packs of cereal, mac-n-cheese, and milk. Also some coffee, tea, and other snacks.<br/><br/>
       The ultimate intern strategy is to use the two packs of milk/cereal in your first weekend before the milk goes bad.<br/><br/>
 

@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Amenities = () => (
-  <div class="content">
+  <div className="content">
     <h2>Amenities</h2>
-    <p class="body">
+    <p className="body">
       Everyone wants to know about bikes. Let's talk about bikes.<br/><br/>
 
       1. There are bikes parked in stations around the Menlo Park campus that you can pick up without any paperwork. Just drop them off at another station.<br/>

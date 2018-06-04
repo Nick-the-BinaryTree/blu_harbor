@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Arrival = () => (
-  <div class="content">
+  <div className="content">
     <h2>Arrival</h2>
-    <p class="body">
+    <p className="body">
       You don't have to check in.<br/><br/>
 
       There's a lock box tied to your door handle with your keys and everything. Oakwood/Synergy will email you the code to open it.<br/><br/>

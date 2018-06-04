@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Social = () => (
-  <div class="content">
+  <div className="content">
     <h2>Social</h2>
-    <p class="body">
+    <p className="body">
       Check the Blu Harbor Facebook chat (msg Nick or someone else to join) or the SF Bay Interns Slack (url: intern.community)
       for social activites. Be aware of age requirements.<br/><br/>
 

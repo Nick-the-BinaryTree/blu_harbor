@@ -9,7 +9,7 @@ class App extends Component {
       <Router baseurl={process.env.PUBLIC_URL}>
         <div className="App">
           <header>
-            <h1><Link to={"/">Welcome to Blu Harbor</Link></h1>
+            <h1><Link to="/">Welcome to Blu Harbor</Link></h1>
             <ul>
               <li><Link to="/arrival">Arrival</Link></li>
               <li><Link to="/food">Food</Link></li>
