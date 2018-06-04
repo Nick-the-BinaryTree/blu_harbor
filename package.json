@@ -1,5 +1,6 @@
 {
   "name": "blu_harbor",
+  "homepage": "https://nick-the-binarytree.github.io/blu_harbor",
   "main": "lib/index.js",
   "version": "0.1.0",
   "private": true,
@@ -12,11 +13,12 @@
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.73.0",
+    "gh-pages": "^1.2.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src/ -d lib/ && react-scripts build && mv build docs",
+    "build": "babel src/ -d lib/ && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
